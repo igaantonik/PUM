@@ -18,9 +18,11 @@ dependencies = [
     "scikit-fingerprints",
     "scikit-learn",
     "seaborn",
-    "sentence_transformers",
+    "sentence-transformers (>=2.2.2,<3.0.0)",
     "torch",
-    "tqdm"
+    "tqdm",
+    "numpy==2.0",
+    "transformers (>=4.37.2,<5.0.0)",
 ]
 
 [dependency-groups]
